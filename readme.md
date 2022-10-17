@@ -5,4 +5,4 @@
 [week-3](https://docs.google.com/presentation/d/1_M-k6uAIBAFaaS2NlN5izM2nCHdpRr5H4eOl53g5IC4/edit?usp=sharing)<br/>
 [week-4](https://docs.google.com/presentation/d/1t9UFZ1Un_JCXfpNJrPkAA2ls-xLcsPCIA6NgC6JgJSg/edit?usp=sharing)
 [week-5](https://docs.google.com/presentation/d/1ex2a8kJqAfokDJFliAoNXPvyyE1kg64Wt2VLJJu01uk/edit?usp=sharing)<br/>
-[week6](https://docs.google.com/presentation/d/1SqXMq0yYxGYTC1n9BTPqEG1LL71Uh8SOz_74Dvrl7H4/edit?usp=sharing)<br/>
+[week-6](https://docs.google.com/presentation/d/1SqXMq0yYxGYTC1n9BTPqEG1LL71Uh8SOz_74Dvrl7H4/edit?usp=sharing)<br/>
