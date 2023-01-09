@@ -1,16 +1,39 @@
 <!doctype html>
 <html>
-<head>
-  <link href="index.css" rel="stylesheet">
-</head>
 <body>
-  <div id="introduction">
-    <div id="my-name" style="text-align: right;">Hi, I am Albert randi</div>
-    <div id="sub-title">A web developer</div>
-    <div style="color:black; flex: 1; background-color: white; width: 500px; margin-right:30px">
-      medan, 
-      <input type="date" style="border: none; background-color: white" value='2017-06-01' disabled>
-    </div>
+  <div id="angka">0</div>
+  <div>
+    <button id="plus">+</button>
+    <button id="minus">-</button>
   </div>
+
+  <div>
+    <div>email</div>
+    <input type="email" id="email" sty>
+    <div id="email-error" style="color: red"></div>
+    <div>password</div>
+    <input type="password" id="password">
+    <button id="buttonLogin" id="buttonLogin">Login</button>
+  </div>
+  <script>
+    var btnLogin = document.getElementById("buttonLogin");
+    var email = document.getElementById("email");
+    btnLogin.onclick = function(){
+      var valueEmail = email.value;
+      if(valueEmail == ""){
+        email.style.borderColor = "red"
+        document.getElementById("email-error").innerHTML = "email is required"
+      }
+    }
+    
+    var btnPlus = document.getElementById("plus");
+    var angka = document.getElementById("angka");
+    btnPlus.onclick = function() {
+      var nilaiAngka = parseInt(angka.innerHTML)
+      console.log(nilaiAngka);
+      angka.innerHTML = nilaiAngka+1
+    }
+  </script>
 </body>
+
 </html>
